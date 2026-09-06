@@ -1,0 +1,54 @@
+# ⚠️ هذا الملف لازم يترفع بالمسار بالضبط: .github/workflows/fetch_clips.yml
+# (يعني تسوي مجلد اسمه ".github" وبداخله مجلد "workflows" وبداخله هذا الملف)
+
+name: Fetch Stock Clips
+
+on:
+  schedule:
+    # يشتغل تلقائياً كل يوم اثنين الساعة 3 فجراً بتوقيت غرينتش (بدون أي تدخل منك)
+    - cron: "0 3 * * 1"
+  workflow_dispatch: {}
+    # هذا يخليك تقدر تشغّله يدوياً في أي وقت من تطبيق GitHub بالجوال:
+    # افتح المستودع → تبويب Actions → Fetch Stock Clips → Run workflow
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch clips from Pexels
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python fetch_clips.py
+
+      - name: Publish clips as a GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete clips-latest --yes --repo "${{ github.repository }}" || true
+          git push origin :refs/tags/clips-latest || true
+          gh release create clips-latest clips/*.mp4 \
+            --repo "${{ github.repository }}" \
+            --title "Stock clips (latest)" \
+            --notes "Auto-updated $(date -u +%F)"
+
+      - name: Commit updated index.json
+        run: |
+          git config user.name "clips-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.json
+          git diff --cached --quiet || git commit -m "Update clips index [auto]"
+          git push
