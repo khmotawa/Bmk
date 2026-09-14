@@ -9,11 +9,11 @@
       "query": "modern building exterior"
     },
     {
-      "filename": "modern_building_856662.mp4",
-      "pexels_id": 856662,
-      "pexels_url": "https://www.pexels.com/video/time-lapse-video-of-reflection-of-sky-856662/",
-      "width": 1920,
-      "height": 1080,
+      "filename": "modern_building_7076540.mp4",
+      "pexels_id": 7076540,
+      "pexels_url": "https://www.pexels.com/video/facade-of-a-building-7076540/",
+      "width": 2160,
+      "height": 3840,
       "query": "modern building exterior"
     }
   ],
@@ -117,9 +117,9 @@
       "query": "stock chart growth graph"
     },
     {
-      "filename": "investment_chart_38222818.mp4",
-      "pexels_id": 38222818,
-      "pexels_url": "https://www.pexels.com/video/dynamic-stock-market-analysis-display-38222818/",
+      "filename": "investment_chart_38808545.mp4",
+      "pexels_id": 38808545,
+      "pexels_url": "https://www.pexels.com/video/dynamic-stock-market-data-visualization-38808545/",
       "width": 3840,
       "height": 2160,
       "query": "stock chart growth graph"
@@ -127,19 +127,19 @@
   ],
   "construction": [
     {
+      "filename": "construction_17081517.mp4",
+      "pexels_id": 17081517,
+      "pexels_url": "https://www.pexels.com/video/build-17081517/",
+      "width": 2560,
+      "height": 1440,
+      "query": "building construction site"
+    },
+    {
       "filename": "construction_5349086.mp4",
       "pexels_id": 5349086,
       "pexels_url": "https://www.pexels.com/video/construction-of-a-building-in-the-city-5349086/",
       "width": 1920,
       "height": 1080,
-      "query": "building construction site"
-    },
-    {
-      "filename": "construction_4404097.mp4",
-      "pexels_id": 4404097,
-      "pexels_url": "https://www.pexels.com/video/drone-shot-of-the-construction-site-4404097/",
-      "width": 3840,
-      "height": 2160,
       "query": "building construction site"
     }
   ],
@@ -163,17 +163,17 @@
   ],
   "family_home": [
     {
-      "filename": "family_home_7646537.mp4",
-      "pexels_id": 7646537,
-      "pexels_url": "https://www.pexels.com/video/a-family-walking-towards-their-new-home-7646537/",
+      "filename": "family_home_7578426.mp4",
+      "pexels_id": 7578426,
+      "pexels_url": "https://www.pexels.com/video/couple-going-inside-a-house-7578426/",
       "width": 2160,
       "height": 3840,
       "query": "family walking new home"
     },
     {
-      "filename": "family_home_7646363.mp4",
-      "pexels_id": 7646363,
-      "pexels_url": "https://www.pexels.com/video/realtor-showing-a-family-around-a-house-7646363/",
+      "filename": "family_home_7646537.mp4",
+      "pexels_id": 7646537,
+      "pexels_url": "https://www.pexels.com/video/a-family-walking-towards-their-new-home-7646537/",
       "width": 2160,
       "height": 3840,
       "query": "family walking new home"
