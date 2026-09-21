@@ -27,9 +27,9 @@
       "query": "office laptop typing"
     },
     {
-      "filename": "office_work_4841394.mp4",
-      "pexels_id": 4841394,
-      "pexels_url": "https://www.pexels.com/video/person-working-on-a-laptop-4841394/",
+      "filename": "office_work_4474850.mp4",
+      "pexels_id": 4474850,
+      "pexels_url": "https://www.pexels.com/video/person-using-her-macbook-4474850/",
       "width": 1920,
       "height": 1080,
       "query": "office laptop typing"
@@ -117,9 +117,9 @@
       "query": "stock chart growth graph"
     },
     {
-      "filename": "investment_chart_38808545.mp4",
-      "pexels_id": 38808545,
-      "pexels_url": "https://www.pexels.com/video/dynamic-stock-market-data-visualization-38808545/",
+      "filename": "investment_chart_39558577.mp4",
+      "pexels_id": 39558577,
+      "pexels_url": "https://www.pexels.com/video/dynamic-cryptocurrency-market-chart-analysis-39558577/",
       "width": 3840,
       "height": 2160,
       "query": "stock chart growth graph"
@@ -127,19 +127,19 @@
   ],
   "construction": [
     {
-      "filename": "construction_17081517.mp4",
-      "pexels_id": 17081517,
-      "pexels_url": "https://www.pexels.com/video/build-17081517/",
-      "width": 2560,
-      "height": 1440,
-      "query": "building construction site"
-    },
-    {
       "filename": "construction_5349086.mp4",
       "pexels_id": 5349086,
       "pexels_url": "https://www.pexels.com/video/construction-of-a-building-in-the-city-5349086/",
       "width": 1920,
       "height": 1080,
+      "query": "building construction site"
+    },
+    {
+      "filename": "construction_4404097.mp4",
+      "pexels_id": 4404097,
+      "pexels_url": "https://www.pexels.com/video/drone-shot-of-the-construction-site-4404097/",
+      "width": 3840,
+      "height": 2160,
       "query": "building construction site"
     }
   ],
@@ -171,9 +171,9 @@
       "query": "family walking new home"
     },
     {
-      "filename": "family_home_7646537.mp4",
-      "pexels_id": 7646537,
-      "pexels_url": "https://www.pexels.com/video/a-family-walking-towards-their-new-home-7646537/",
+      "filename": "family_home_7646363.mp4",
+      "pexels_id": 7646363,
+      "pexels_url": "https://www.pexels.com/video/realtor-showing-a-family-around-a-house-7646363/",
       "width": 2160,
       "height": 3840,
       "query": "family walking new home"
@@ -181,17 +181,17 @@
   ],
   "vault_safe": [
     {
-      "filename": "vault_safe_39060937.mp4",
-      "pexels_id": 39060937,
-      "pexels_url": "https://www.pexels.com/video/secure-safe-locking-process-in-progress-39060937/",
+      "filename": "vault_safe_5849613.mp4",
+      "pexels_id": 5849613,
+      "pexels_url": "https://www.pexels.com/video/animation-of-bank-5849613/",
       "width": 1920,
       "height": 1080,
       "query": "bank vault door"
     },
     {
-      "filename": "vault_safe_5849613.mp4",
-      "pexels_id": 5849613,
-      "pexels_url": "https://www.pexels.com/video/animation-of-bank-5849613/",
+      "filename": "vault_safe_5849641.mp4",
+      "pexels_id": 5849641,
+      "pexels_url": "https://www.pexels.com/video/illustration-of-saving-5849641/",
       "width": 1920,
       "height": 1080,
       "query": "bank vault door"
