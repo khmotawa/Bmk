@@ -127,19 +127,19 @@
   ],
   "construction": [
     {
-      "filename": "construction_17081517.mp4",
-      "pexels_id": 17081517,
-      "pexels_url": "https://www.pexels.com/video/build-17081517/",
-      "width": 2560,
-      "height": 1440,
-      "query": "building construction site"
-    },
-    {
       "filename": "construction_5349086.mp4",
       "pexels_id": 5349086,
       "pexels_url": "https://www.pexels.com/video/construction-of-a-building-in-the-city-5349086/",
       "width": 1920,
       "height": 1080,
+      "query": "building construction site"
+    },
+    {
+      "filename": "construction_4404097.mp4",
+      "pexels_id": 4404097,
+      "pexels_url": "https://www.pexels.com/video/drone-shot-of-the-construction-site-4404097/",
+      "width": 3840,
+      "height": 2160,
       "query": "building construction site"
     }
   ],
@@ -181,17 +181,17 @@
   ],
   "vault_safe": [
     {
-      "filename": "vault_safe_39060937.mp4",
-      "pexels_id": 39060937,
-      "pexels_url": "https://www.pexels.com/video/secure-safe-locking-process-in-progress-39060937/",
+      "filename": "vault_safe_5849613.mp4",
+      "pexels_id": 5849613,
+      "pexels_url": "https://www.pexels.com/video/animation-of-bank-5849613/",
       "width": 1920,
       "height": 1080,
       "query": "bank vault door"
     },
     {
-      "filename": "vault_safe_5849613.mp4",
-      "pexels_id": 5849613,
-      "pexels_url": "https://www.pexels.com/video/animation-of-bank-5849613/",
+      "filename": "vault_safe_39060937.mp4",
+      "pexels_id": 39060937,
+      "pexels_url": "https://www.pexels.com/video/secure-safe-locking-process-in-progress-39060937/",
       "width": 1920,
       "height": 1080,
       "query": "bank vault door"
